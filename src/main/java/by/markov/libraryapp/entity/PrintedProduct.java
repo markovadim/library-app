@@ -16,7 +16,7 @@ public class PrintedProduct {
     @Id
     private long id;
     private String productionsType;
-    private String tittle;
+    private String title;
     private String author;
     private int pages;
     private Date publishDate;

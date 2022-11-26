@@ -42,7 +42,7 @@ public class LibraryBaseService {
     public PrintedProduct updatePrintedProduct(long id, PrintedProduct updatedPrintedProduct) {
         PrintedProduct printedProduct = findById(id);
         printedProduct.setProductionsType(updatedPrintedProduct.getProductionsType());
-        printedProduct.setTittle(updatedPrintedProduct.getTittle());
+        printedProduct.setTitle(updatedPrintedProduct.getTitle());
         printedProduct.setAuthor(updatedPrintedProduct.getAuthor());
         printedProduct.setPages(updatedPrintedProduct.getPages());
         printedProduct.setPublisher(updatedPrintedProduct.getPublisher());

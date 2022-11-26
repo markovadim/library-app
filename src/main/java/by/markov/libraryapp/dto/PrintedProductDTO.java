@@ -15,7 +15,7 @@ import java.util.Date;
 public class PrintedProductDTO {
 
     private String productionsType;
-    private String tittle;
+    private String title;
     private String author;
     private int pages;
     private Date publishDate;
